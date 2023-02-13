@@ -14,12 +14,24 @@ In the next step, the different algorithms can be used. The first one is the tem
 The next one is the Hough-Transformation for line and circle detection. Those are implemented in the odHoughLines and odHoughCircles modules. The following paramaters were used to achieve the results below.
 #### Parameters for Hough-Lines Transformation
 | Peaks | Threshold | Gap | min. Linelength |
-|-|-|-|-|
-|30|0.2|15|20|
+|-------|-----------|-----|-----------------|
+|   30  |    0.2    |  15 |        20       |
 
 #### Parameters for Hough-Circles Transformation
 |min. Radius|max. Radius|
-|-|-|
-|10|50|
+|-----------|-----------|
+|     10    |     50    |
 
 ![alt text](https://imgur.com/EHvxQVv.jpg)
+
+
+The last one is the Ransac-Algorithm for line and circle detection. Those are implemented in the odRansacLines and odRansacCircles modules. The following paramaters were used to achieve the results below.
+#### Parameters for Hough-Lines Transformation
+| Runs | Iterations | Tolerance | Ratio | Gap |
+|------|------------|-----------|-------|-----|
+|  30  |    1000    |     1     |  0.03 |  5  |
+
+#### Parameters for Hough-Circles Transformation
+| Runs | Iterations | Tolerance |
+|------|------------|-----------|
+|  20  |    1000    |    1.5    |
