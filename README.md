@@ -39,3 +39,8 @@ The last one is the Ransac-Algorithm for line and circle detection. Those are im
 |  20  |    1000    |    1.5    |
 
 ![alt text](https://imgur.com/LhLUrHW.jpg)
+
+## Object-Recognition
+Finally, the odObjectDetect module was written to classify objects based on the identified lines and circles of the previously explained methods.
+
+![alt text](https://imgur.com/QBYZlzU.jpg)
