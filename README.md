@@ -11,11 +11,12 @@ In the next step, the different algorithms can be used. The first one is the tem
 
 ![alt text](https://imgur.com/DLQgf54.jpg)
 
-
+#### Hoough-Transformation for Lines
 | Peaks | Threshold | Gap | min. Linelength |
 |-|-|-|-|
 |30|0.2|15|20|
 
+### Hough-Transformation for Circles
 |min. Radius|max. Radius|
 |-|-|
 |10|50|
