@@ -14,8 +14,4 @@ In the next step, the different algorithms can be used. The first one is the tem
 
 | Peaks | Threshold | Gap | min. Linelength |
 |-|-|-|-|
-|     < 3.7      |  Untested     |
-|      3.7       |  :heavy_check_mark: |
-| 3.8 | :x: |
-| 3.9 | :x: |
-| 3.10 | :heavy_check_mark: |
+|30|0.2|15|20|
