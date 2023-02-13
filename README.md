@@ -4,3 +4,5 @@ This project was created as part of my bachelor thesis. The goal is to recognize
 
 ## Functionality:
 First, an image is selected with the odImagePreprocessing module and converted to a gray scale image. Then the odCannyEdge module converts the gray scale image to a binary edge image.
+
+![alt text](https://imgur.com/JynmPjP)
