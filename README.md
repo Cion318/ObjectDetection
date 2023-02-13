@@ -12,6 +12,6 @@ In the next step, the different algorithms can be used. The first one is the tem
 ![alt text](https://imgur.com/DLQgf54.jpg)
 
 
-| Peaks | Threshold | Gap | min. Linelength |
+| Peaks | Threshold | Gap | min. Linelength |                                   |min. Radius|max. Radius|
 |-|-|-|-|
 |30|0.2|15|20|
