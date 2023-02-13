@@ -10,3 +10,12 @@ First, an image is selected with the odImagePreprocessing module and converted t
 In the next step, the different algorithms can be used. The first one is the template Matching in the odTemplateMatching module. A template image is needed, which should be identified in the original image.
 
 ![alt text](https://imgur.com/DLQgf54.jpg)
+
+
+| Peaks | Threshold | Gap | min. Linelength |
+|-|-|-|-|
+|     < 3.7      |  Untested     |
+|      3.7       |  :heavy_check_mark: |
+| 3.8 | :x: |
+| 3.9 | :x: |
+| 3.10 | :heavy_check_mark: |
