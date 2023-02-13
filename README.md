@@ -37,3 +37,5 @@ The last one is the Ransac-Algorithm for line and circle detection. Those are im
 | Runs | Iterations | Tolerance |
 |------|------------|-----------|
 |  20  |    1000    |    1.5    |
+
+![alt text](https://imgur.com/LhLUrHW.jpg)
