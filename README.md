@@ -11,12 +11,15 @@ In the next step, the different algorithms can be used. The first one is the tem
 
 ![alt text](https://imgur.com/DLQgf54.jpg)
 
-#### Hoough-Transformation for Lines
+The next one is the Hough-Transformation for line and circle detection. Those are implemented in the odHoughLines and odHoughCircles modules. The following paramaters were used to achieve the results below.
+#### Parameters for Hough-Lines Transformation
 | Peaks | Threshold | Gap | min. Linelength |
 |-|-|-|-|
 |30|0.2|15|20|
 
-### Hough-Transformation for Circles
+#### Parameters for Hough-Circles Transformation
 |min. Radius|max. Radius|
 |-|-|
 |10|50|
+
+![alt text](https://imgur.com/EHvxQVv.jpg)
