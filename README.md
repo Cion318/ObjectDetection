@@ -6,3 +6,5 @@ This project was created as part of my bachelor thesis. The goal is to recognize
 First, an image is selected with the odImagePreprocessing module and converted to a gray scale image. Then the odCannyEdge module converts the gray scale image to a binary edge image.
 
 ![alt text](https://i.imgur.com/JynmPjP.jpeg)
+
+In the next step, the different algorithms can be used. The first one is the template Matching in the odTemplateMatching module. A template image is needed, which should be identified in the original image.
